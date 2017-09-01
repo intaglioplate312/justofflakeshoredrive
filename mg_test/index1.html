@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.6
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Supersized - Full Screen Background Slideshow jQuery Plugin</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+		<!--<link rel="stylesheet" href="http://buildinternet.com/project/supersized/css/bsa-demo.css" type="text/css" media="screen"/>-->
+		
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slideshow               :   1,			// Slideshow on/off
+					autoplay				:	1,			// Slideshow starts playing automatically
+					start_slide             :   1,			// Start slide (0 is random)
+					stop_loop				:	0,			// Pauses slideshow on last slide
+					random					: 	0,			// Randomize slide order (Ignores start slide)
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	1000,		// Speed of transition
+					new_window				:	1,			// Image links open in new window/tab
+					pause_hover             :   0,			// Pause slideshow on hover
+					keyboard_nav            :   1,			// Keyboard navigation on/off
+					performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+					image_protect			:	1,			// Disables image dragging and right click with Javascript
+															   
+					// Size & Position						   
+					min_width		        :   0,			// Min width allowed (in pixels)
+					min_height		        :   0,			// Min height allowed (in pixels)
+					vertical_center         :   1,			// Vertically center background
+					horizontal_center       :   1,			// Horizontally center background
+					fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+					fit_portrait         	:   1,			// Portrait images will not exceed browser height
+					fit_landscape			:   0,			// Landscape images will not exceed browser width
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'number', 'name', 'blank')
+					thumb_links				:	1,			// Individual thumb links for each slide
+					thumbnail_navigation    :   0,			// Thumbnail navigation
+					slides 					:  	[			// Slideshow Images
+														
+														
+{image : 'images/slideshow/_DSC3303.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3303.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3303.jpg'},
+{image : 'images/slideshow/_DSC3357.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3357.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3357.jpg'},
+{image : 'images/slideshow/_DSC3417.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3417.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3417.jpg'},
+{image : 'images/slideshow/_DSC3457.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3457.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3457.jpg'},
+{image : 'images/slideshow/_DSC6101.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC6101.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC6101.jpg'},
+{image : 'images/slideshow/BrightEyes5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/BrightEyes5.jpg', url : 'http://meredithgregory.com/images/slideshow/BrightEyes5.jpg'},
+{image : 'images/slideshow/CageTheElephant7 copy.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/CageTheElephant7 copy.jpg', url : 'http://meredithgregory.com/images/slideshow/CageTheElephant7 copy.jpg'},
+{image : 'images/slideshow/ceelomidddlefinger.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/ceelomidddlefinger.jpg', url : 'http://meredithgregory.com/images/slideshow/ceelomidddlefinger.jpg'},
+{image : 'images/slideshow/deadrunner.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/deadrunner.jpg', url : 'http://meredithgregory.com/images/slideshow/deadrunner.jpg'},
+{image : 'images/slideshow/DSC_1059.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_1059.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_1059.jpg'},
+{image : 'images/slideshow/DSC_3081.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3081.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3081.jpg'},
+{image : 'images/slideshow/DSC_3603.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3603.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3603.jpg'},
+{image : 'images/slideshow/DSC_3635.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3635.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3635.jpg'},
+{image : 'images/slideshow/DSC_6720.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_6720.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_6720.jpg'},
+{image : 'images/slideshow/DSC_9688.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_9688.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_9688.jpg'},
+{image : 'images/slideshow/GracePotter.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/GracePotter.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSGracePotterC3303.jpg'},
+{image : 'images/slideshow/IMG_6528.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/IMG_6528.jpg', url : 'http://meredithgregory.com/images/slideshow/IMG_6528.jpg'},
+{image : 'images/slideshow/IMG_9924.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/IMG_9924.jpg', url : 'http://meredithgregory.com/images/slideshow/IMG_9924.jpg'},
+{image : 'images/slideshow/johnw3.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/johnw3.jpg', url : 'http://meredithgregory.com/images/slideshow/johnw3.jpg'},
+{image : 'images/slideshow/lightning.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/lightning.jpg', url : 'http://meredithgregory.com/images/slideshow/lightning.jpg'},
+{image : 'images/slideshow/Muse5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/Muse5.jpg', url : 'http://meredithgregory.com/images/slideshow/Muse5.jpg'},
+	
+<!-- {image : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/slides/kazvan-2.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://buildinternet.s3.amazonaws.com/projects/supersized/3.2/thumbs/kazvan-2.jpg', url : 'http://www.nonsensesociety.com/2011/04/maria-kazvan/'}, __!>
+ 
+												],
+												
+					// Theme Options			   
+					progress_bar			:	1,			// Timer for each slide							
+					mouse_scrub				:	0
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+		ul#demo-block{ margin:0 15px 15px 15px; }
+			ul#demo-block li{ margin:0 0 10px 0; padding:10px; display:inline; float:left; clear:both; color:#aaa; background:url('images/img/bg-black.png'); font:11px Helvetica, Arial, sans-serif; }
+			ul#demo-block li a{ color:#eee; font-weight:bold; }
+	</style>
+
+<body>
+		
+		<script type="text/javascript"> 
+		(function(){
+		  var bsa = document.createElement('script');
+		     bsa.type = 'text/javascript';
+		     bsa.async = true;
+		     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+		  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+		})();
+		</script> 
+		
+	<!--Demo styles (you can delete this block
+	
+	<ul id="demo-block">
+		<li><a href="http://buildinternet.com/project/supersized/" target="_blank"><img src="images/img/supersized-logo.png"/></a></li>
+		<li>Photographers: <a href="http://cargocollective.com/mariakazvan" target="_blank">Maria Kazvan</a>, <a href="http://colindub.com" target="_blank">Colin Wojno</a>, &amp; <a href="http://brookeshaden.com/" target="_blank">Brooke Shaden</a></li>
+		<li>
+			<div id="bsa-adpack"> 
+				<!-- AdPacks.com Zone Code --> 
+                
+				<div id="bsap_1255497" class="bsarocks bsap_3a3793f622db4a9dea3bfa355c5b2441"></div> 
+				
+				 End AdPacks.com Zone Code -->
+			</div>
+		</li>
+	</ul>
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+	<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="images/img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="images/img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+	</body>
+		
+	<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-6444047-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+</html>
+

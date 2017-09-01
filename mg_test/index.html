@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.7
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Meredith Gregory Event Photographer</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   9000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	900,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+
+{image : 'images/slideshow/BrightEyes5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/BrightEyes5.jpg', url : 'http://meredithgregory.com/images/slideshow/BrightEyes5.jpg'},
+{image : 'images/slideshow/CageTheElephant7.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/CageTheElephant7.jpg', url : 'http://meredithgregory.com/images/slideshow/CageTheElephant7.jpg'},
+{image : 'images/slideshow/ceelomidddlefinger.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/ceelomidddlefinger.jpg', url : 'http://meredithgregory.com/images/slideshow/ceelomidddlefinger.jpg'},
+{image : 'images/slideshow/GracePotter.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/GracePotter.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSGracePotterC3303.jpg'},
+{image : 'images/slideshow/Muse5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/Muse5.jpg', url : 'http://meredithgregory.com/images/slideshow/Muse5.jpg'},
+{image : 'images/slideshow/DSC_3081.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3081.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3081.jpg'},
+{image : 'images/slideshow/DSC_3603.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3603.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3603.jpg'},
+{image : 'images/slideshow/DSC_3635.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_3635.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_3635.jpg'},
+{image : 'images/slideshow/DSC_6720.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_6720.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_6720.jpg'},
+{image : 'images/slideshow/IMG_9924.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/IMG_9924.jpg', url : 'http://meredithgregory.com/images/slideshow/IMG_9924.jpg'},
+{image : 'http://justofflakeshoredrive.com/mg_test/images/slideshow/_DSC3303.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'http://justofflakeshoredrive.com/mg_test/images/thumb150/_DSC3303.jpg', url : 'http://justofflakeshoredrive.com/mg_test/images/slideshow/_DSC3303.jpg'},
+{image : 'images/slideshow/_DSC3357.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3357.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3357.jpg'},
+{image : 'images/slideshow/_DSC3417.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3417.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3417.jpg'},
+{image : 'images/slideshow/_DSC3457.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC3457.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC3457.jpg'},	
+{image : 'images/slideshow/johnw3.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/johnw3.jpg', url : 'http://meredithgregory.com/images/slideshow/johnw3.jpg'},
+{image : 'images/slideshow/IMG_6528.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/IMG_6528.jpg', url : 'http://meredithgregory.com/images/slideshow/IMG_6528.jpg'},
+{image : 'images/slideshow/_DSC6101.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/_DSC6101.jpg', url : 'http://meredithgregory.com/images/slideshow/_DSC6101.jpg'},
+{image : 'images/slideshow/DSC_9688.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_9688.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_9688.jpg'},
+{image : 'images/slideshow/DSC_1059.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/DSC_1059.jpg', url : 'http://meredithgregory.com/images/slideshow/DSC_1059.jpg'},
+{image : 'images/slideshow/deadrunner.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/deadrunner.jpg', url : 'http://meredithgregory.com/images/slideshow/deadrunner.jpg'},
+{image : 'images/slideshow/lightning.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/thumb150/lightning.jpg', url : 'http://meredithgregory.com/images/slideshow/lightning.jpg'},	
+		]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+	
+	h1 {
+	color:#aaa;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+		
+	ul#demo-block{
+		margin:0 15px 15px 15px;
+		background-color:#666;
+	line-height: 1.2%;
+		}
+					}
+	ul#demo-block li{
+		margin:0 0 5px 0;
+		padding:10px;
+		display:inline;
+		float:left;
+		clear:both;
+		color:#aaa;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1em;
+	
+}
+				
+			ul#demo-block li a{ color:#eee; font-weight:bold;text-decoration: none; }
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+	
+  <ul id="demo-block">
+	<li><h1><a href="index.html">Meredith Gregory<br />PHOTOGRAPHY </a></h1>
+    </li>
+    <li><a href="archive.html">Archives</a></li>
+	<li><a href="http://www.nbcchicago.com/the-scene/events/PHOTOS-Boystown-Halloween-Parade-north-halsted-106457138.html">5 NBC Chicago</a></li>
+    <li><a href="mailto:mere72085@aol.com">Contact</a></li>
+	</ul>
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+
+</body>
+</html>

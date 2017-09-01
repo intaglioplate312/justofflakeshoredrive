@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+	h1 {
+		color:#aaa;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1.5em;}
+		
+	ul#demo-block{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 250px;
+	/*border-bottom: 1px solid #ccc;*/
+		}
+					
+	ul#demo-block li{
+	margin:0 0 5px 0;
+	padding:10px;
+	display:inline;
+	float:left;
+	clear:both;
+	color:#FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	position: relative;	
+}
+	ul#demo-block li ul {
+	position: absolute;
+	left: 101%;
+	top: 0;
+	display: none;
+		}
+				
+	ul#demo-block li a {
+	font-weight:bold;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	/*background: #fff;*/
+	padding: 5px;
+	/*border: 1px solid #ccc;*/
+	border-bottom: 0;
+	} 
+	
+	ul#demo-block li:hover ul { display: block; }
+	
+	/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+	
