@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<!--
+		Supersized - Fullscreen Slideshow jQuery Plugin
+		Version : 3.2.7
+		Site	: www.buildinternet.com/project/supersized
+		
+		Author	: Sam Dunn
+		Company : One Mighty Roar (www.onemightyroar.com)
+		License : MIT License / GPL License
+	-->
+
+	<head>
+
+		<title>Meredith Gregory Event Photographer</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+		
+		<script type="text/javascript">
+			
+			jQuery(function($){
+				
+				$.supersized({
+				
+					// Functionality
+					slide_interval          :   3000,		// Length between transitions
+					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+					transition_speed		:	700,		// Speed of transition
+															   
+					// Components							
+					slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+					slides 					:  	[			// Slideshow Images
+{image : 'images/archive1/BlackCards.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackCards.jpg', url : 'http://meredithgregory.com/images/archive1/BlackCards.jpg'},
+{image : 'images/archive1/BlackCards1.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackCards1.jpg', url : 'http://meredithgregory.com/images/archive1/BlackCards1.jpg'},
+{image : 'images/archive1/BlackCards2.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackCards2.jpg', url : 'http://meredithgregory.com/images/archive1/BlackCards2.jpg'},
+{image : 'images/archive1/BlackCards7.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackCards7.jpg', url : 'http://meredithgregory.com/images/archive1/BlackCards7.jpg'},
+{image : 'images/archive1/BlackLip1.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackLip1.jpg', url : 'http://meredithgregory.com/images/archive1/BlackLip1.jpg'},
+{image : 'images/archive1/BlackLips.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BlackLips.jpg', url : 'http://meredithgregory.com/images/archive1/BlackLips.jpg'},
+{image : 'images/archive1/BloodyBeetRoot2.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BloodyBeetRoot2.jpg', url : 'http://meredithgregory.com/images/archive1/BloodyBeetRoot2.jpg'},
+{image : 'images/archive1/TheBloodyBeetRootsDeathCrew77.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/TheBloodyBeetRootsDeathCrew77.jpg', url : 'http://meredithgregory.com/images/archive1/TheBloodyBeetRootsDeathCrew77.jpg'},
+{image : 'images/archive1/BloodyBeetRoot3.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BloodyBeetRoot3.jpg', url : 'http://meredithgregory.com/images/archive1/BloodyBeetRoot3.jpg'},
+{image : 'images/archive1/BloodyBeetRoots.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BloodyBeetRoots.jpg', url : 'http://meredithgregory.com/images/archive1/BloodyBeetRoots.jpg'},
+{image : 'images/archive1/BrightEyes5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BrightEyes5.jpg', url : 'http://meredithgregory.com/images/archive1/BrightEyes5.jpg'},
+{image : 'images/archive1/BrightEyes8.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/BrightEyes8.jpg', url : 'http://meredithgregory.com/images/archive1/BrightEyes8.jpg'},
+{image : 'images/archive1/CageTheElaphant4.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/CageTheElaphant4.jpg', url : 'http://meredithgregory.com/images/archive1/CageTheElaphant4.jpg'},
+{image : 'images/archive1/CageTheElephant5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/CageTheElephant5.jpg', url : 'http://meredithgregory.com/images/archive1/CageTheElephant5.jpg'},
+{image : 'images/archive1/FloggingMolly1.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/FloggingMolly1.jpg', url : 'http://meredithgregory.com/images/archive1/FloggingMolly1.jpg'},
+{image : 'images/archive1/FloggingMolly4.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/FloggingMolly4.jpg', url : 'http://meredithgregory.com/images/archive1/FloggingMolly4.jpg'},
+{image : 'images/archive1/GracePotter.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/GracePotter.jpg', url : 'http://meredithgregory.com/images/archive1/GracePotter.jpg'},
+{image : 'images/archive1/GracePotter1.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/GracePotter1.jpg', url : 'http://meredithgregory.com/images/archive1/GracePotter1.jpg'},
+{image : 'images/archive1/IMG_3545.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/IMG_3545.jpg', url : 'http://meredithgregory.com/images/archive1/IMG_3545.jpg'},
+{image : 'images/archive1/Muse1.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/Muse1.jpg', url : 'http://meredithgregory.com/images/archive1/Muse1.jpg'},
+{image : 'images/archive1/Muse5.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/Muse5.jpg', url : 'http://meredithgregory.com/images/archive1/Muse5.jpg'},
+{image : 'images/archive1/PatrickStump2.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/PatrickStump2.jpg', url : 'http://meredithgregory.com/images/archive1/PatrickStump2.jpg'},
+{image : 'images/archive1/PrettyReckless3.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/PrettyReckless3.jpg', url : 'http://meredithgregory.com/images/archive1/PrettyReckless3.jpg'},
+{image : 'images/archive1/SmithWesterns4.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/SmithWesterns4.jpg', url : 'http://meredithgregory.com/images/archive1/SmithWesterns4.jpg'},
+{image : 'images/archive1/Vaccines2.jpg', title : 'Image Credit: Meredith Gregory', thumb : 'images/archive1/thumb150/Vaccines2.jpg', url : 'http://meredithgregory.com/images/archive1/Vaccines2.jpg'},
+												]
+					
+				});
+		    });
+		    
+		</script>
+		
+	</head>
+	
+	<style type="text/css">
+	
+	h1 {
+	color:#aaa;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+		
+	ul#demo-block{
+		margin:0 15px 15px 15px;
+		background-color:#666;
+	line-height: 1.2%;
+		}
+					}
+	ul#demo-block li{
+		margin:0 0 5px 0;
+		padding:10px;
+		display:inline;
+		float:left;
+		clear:both;
+		color:#aaa;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 1em;
+	
+}
+				
+			ul#demo-block li a{ color:#eee; font-weight:bold;text-decoration: none; }
+	</style>
+
+<body>
+
+	<!--Demo styles (you can delete this block)-->
+	
+  <ul id="demo-block">
+	<li><h1><a href="index.html">Meredith Gregory<br />PHOTOGRAPHY </a></h1>
+    </li>
+    <li><a href="archive.html">Archives</a></li>
+	<li><a href="mailto:mere72085@aol.com">Contact</a></li>
+	</ul>
+	
+	<!--End of styles-->
+
+	<!--Thumbnail Navigation-->
+<div id="prevthumb"></div>
+	<div id="nextthumb"></div>
+	
+	<!--Arrow Navigation-->
+	<a id="prevslide" class="load-item"></a>
+	<a id="nextslide" class="load-item"></a>
+	
+	<div id="thumb-tray" class="load-item">
+		<div id="thumb-back"></div>
+		<div id="thumb-forward"></div>
+	</div>
+	
+	<!--Time Bar-->
+	<div id="progress-back" class="load-item">
+		<div id="progress-bar"></div>
+	</div>
+	
+	<!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+			
+			<a id="play-button"><img id="pauseplay" src="img/pause.png"/></a>
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span> / <span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			
+			<!--Thumb Tray button-->
+			<a id="tray-button"><img id="tray-arrow" src="img/button-tray-up.png"/></a>
+			
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+			
+		</div>
+	</div>
+
+</body>
+</html>

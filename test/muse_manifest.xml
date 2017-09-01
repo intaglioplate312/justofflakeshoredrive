@@ -1,0 +1,154 @@
+<manifest alg="2" build="30" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3985350669"/>
+    <file name="master_b-master.css" crc="303634802" ref="artists-my-art-history:websites:non-profit-laughing-all-the-way-to-a-cure:artists-ann-kleboe-art:non-profit-congregation-sha’aray-shalom:corporate-calumet-rubber-crop:non-profit-senior-artists-network:corporate-practical-magic:corporate-kent-company:artists-r_m_proce-studios:cpl-maker-lab:broadway-and-bordeaux"/>
+    <file name="master_a-master.css" crc="7101928" ref="index:archives:untitled-19:portfolio"/>
+    <file name="artists-my-art-history.css" crc="4281155811" ref="artists-my-art-history"/>
+    <file name="iefonts_artists-my-art-history.css" crc="3875961933" ref="artists-my-art-history"/>
+    <file name="websites.css" crc="3980214664" ref="websites"/>
+    <file name="iefonts_websites.css" crc="3875961933" ref="websites"/>
+    <file name="non-profit-laughing-all-the-way-to-a-cure.css" crc="3866391234" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="iefonts_non-profit-laughing-all-the-way-to-a-cure.css" crc="3875961933" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="artists-r_m_proce-studios.css" crc="346567476" ref="artists-r_m_proce-studios"/>
+    <file name="iefonts_artists-r_m_proce-studios.css" crc="3875961933" ref="artists-r_m_proce-studios"/>
+    <file name="index.css" crc="3998677065" ref="index"/>
+    <file name="iefonts_index.css" crc="7517910" ref="index"/>
+    <file name="artists-ann-kleboe-art.css" crc="4228945655" ref="artists-ann-kleboe-art"/>
+    <file name="iefonts_artists-ann-kleboe-art.css" crc="3875961933" ref="artists-ann-kleboe-art"/>
+    <file name="non-profit-congregation-sha_aray-shalom.css" crc="261930748" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="iefonts_non-profit-congregation-sha_aray-shalom.css" crc="3875961933" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="corporate-calumet-rubber-crop.css" crc="261992003" ref="corporate-calumet-rubber-crop"/>
+    <file name="iefonts_corporate-calumet-rubber-crop.css" crc="3875961933" ref="corporate-calumet-rubber-crop"/>
+    <file name="archives.css" crc="3820464026" ref="archives"/>
+    <file name="iefonts_archives.css" crc="7517910" ref="archives"/>
+    <file name="non-profit-senior-artists-network.css" crc="533681239" ref="non-profit-senior-artists-network"/>
+    <file name="iefonts_non-profit-senior-artists-network.css" crc="3875961933" ref="non-profit-senior-artists-network"/>
+    <file name="untitled-19.css" crc="3816875257" ref="untitled-19"/>
+    <file name="iefonts_untitled-19.css" crc="7517910" ref="untitled-19"/>
+    <file name="portfolio.css" crc="4223114673" ref="portfolio"/>
+    <file name="iefonts_portfolio.css" crc="7517910" ref="portfolio"/>
+    <file name="corporate-practical-magic.css" crc="3820136398" ref="corporate-practical-magic"/>
+    <file name="iefonts_corporate-practical-magic.css" crc="3875961933" ref="corporate-practical-magic"/>
+    <file name="corporate-kent-company.css" crc="10652337" ref="corporate-kent-company"/>
+    <file name="iefonts_corporate-kent-company.css" crc="3875961933" ref="corporate-kent-company"/>
+    <file name="cpl-maker-lab.css" crc="4075986058" ref="cpl-maker-lab"/>
+    <file name="iefonts_cpl-maker-lab.css" crc="3875961933" ref="cpl-maker-lab"/>
+    <file name="broadway-and-bordeaux.css" crc="488308055" ref="broadway-and-bordeaux"/>
+    <file name="iefonts_broadway-and-bordeaux.css" crc="3875961933" ref="broadway-and-bordeaux"/>
+  </folder>
+  <folder name="assets">
+    <file name="faculty_final.pdf" crc="4175449861" mt="1378570419000"/>
+    <file name="studenthandbook_web.pdf" crc="3959615005" mt="1379368283000"/>
+    <file name="student_print.pdf" crc="3824461246" mt="1377696800000"/>
+    <file name="flyer_final.pdf" crc="3881878504" mt="1384803581000"/>
+    <file name="art_history.pdf" crc="3763102829" mt="1395087408000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="phone>index:tablet>index:tablet>web:tablet>print:tablet>art:tablet>temp:tablet>resumé:tablet>partial-client-list:index:artists-my-art-history:corporate-calumet-rubber-crop:non-profit-senior-artists-network:archives:artists-ann-kleboe-art:non-profit-laughing-all-the-way-to-a-cure:non-profit-congregation-sha’aray-shalom:websites:untitled-19:portfolio:artists-r_m_proce-studios:corporate-practical-magic:corporate-kent-company:cpl-maker-lab:broadway-and-bordeaux"/>
+    <file name="museutils.js" crc="3880880085" ref="phone>index:tablet>index:tablet>web:tablet>print:tablet>art:tablet>temp:tablet>resumé:tablet>partial-client-list:index:artists-my-art-history:corporate-calumet-rubber-crop:non-profit-senior-artists-network:archives:artists-ann-kleboe-art:non-profit-laughing-all-the-way-to-a-cure:non-profit-congregation-sha’aray-shalom:websites:untitled-19:portfolio:artists-r_m_proce-studios:corporate-practical-magic:corporate-kent-company:cpl-maker-lab:broadway-and-bordeaux"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="phone>index:tablet>index:tablet>web:tablet>print:tablet>art:tablet>temp:tablet>resumé:tablet>partial-client-list:index:artists-my-art-history:corporate-calumet-rubber-crop:non-profit-senior-artists-network:archives:artists-ann-kleboe-art:non-profit-laughing-all-the-way-to-a-cure:non-profit-congregation-sha’aray-shalom:websites:untitled-19:portfolio:artists-r_m_proce-studios:corporate-practical-magic:corporate-kent-company:cpl-maker-lab:broadway-and-bordeaux"/>
+    <file name="jquery.musemenu.js" crc="32367222" ref="index:artists-my-art-history:corporate-calumet-rubber-crop:non-profit-senior-artists-network:archives:artists-ann-kleboe-art:non-profit-laughing-all-the-way-to-a-cure:non-profit-congregation-sha’aray-shalom:websites:untitled-19:portfolio:artists-r_m_proce-studios:corporate-practical-magic:corporate-kent-company:cpl-maker-lab:broadway-and-bordeaux"/>
+    <file name="pie.js" crc="4147615982" ref="archives:portfolio:corporate-practical-magic"/>
+    <file name="webpro.js" crc="33264525" ref="portfolio"/>
+    <file name="musewpdisclosure.js" crc="250538392" ref="portfolio"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3899542795" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+  </folder>
+  <folder name="images">
+    <file name="u955-grad.png" crc="91299096" ref="index"/>
+    <file name="cover214x214.jpg" crc="514254955" ref="portfolio"/>
+    <file name="kleboe_sq.jpg" crc="3991637149" ref="portfolio"/>
+    <file name="proce_card_sq.jpg" crc="185840255" ref="portfolio"/>
+    <file name="calumet1233x187.jpg" crc="316852608" ref="portfolio"/>
+    <file name="kent_logo309x263.jpg" crc="215783563" ref="portfolio"/>
+    <file name="magic_background.jpg" crc="3761828192" ref="portfolio"/>
+    <file name="san_later_impressions.jpg" crc="3786007054" ref="non-profit-senior-artists-network:portfolio"/>
+    <file name="laugh_now.jpg" crc="3824521629" ref="portfolio"/>
+    <file name="cover.jpg" crc="4280843342" ref="artists-my-art-history"/>
+    <file name="body11.jpg" crc="152708291" ref="artists-my-art-history"/>
+    <file name="body5.jpg" crc="4181933592" ref="artists-my-art-history"/>
+    <file name="body32.jpg" crc="289271867" ref="artists-my-art-history"/>
+    <file name="body63.jpg" crc="424055689" ref="artists-my-art-history"/>
+    <file name="cover2.jpg" crc="3891572935" ref="artists-my-art-history"/>
+    <file name="calumet_screenshot.jpg" crc="4165304970" ref="corporate-calumet-rubber-crop"/>
+    <file name="calumet_screenshot2.jpg" crc="314997382" ref="corporate-calumet-rubber-crop"/>
+    <file name="calumet1.jpg" crc="4011915464" ref="corporate-calumet-rubber-crop"/>
+    <file name="san_artist.jpg" crc="3887329254" ref="non-profit-senior-artists-network"/>
+    <file name="san_artist_hori.jpg" crc="526895258" ref="non-profit-senior-artists-network"/>
+    <file name="san_guest.jpg" crc="361035175" ref="non-profit-senior-artists-network"/>
+    <file name="san_gallery.jpg" crc="3961518233" ref="non-profit-senior-artists-network"/>
+    <file name="procebrochure.jpg" crc="4123281603" ref="artists-r_m_proce-studios"/>
+    <file name="proce_card.jpg" crc="1066698" ref="artists-r_m_proce-studios"/>
+    <file name="kleboe_sculpt.png" crc="491956471" ref="artists-ann-kleboe-art"/>
+    <file name="kleboe_state.png" crc="4240331330" ref="artists-ann-kleboe-art"/>
+    <file name="kleboe_detail1.png" crc="469728041" ref="artists-ann-kleboe-art"/>
+    <file name="kleboe_detail2.png" crc="202545339" ref="artists-ann-kleboe-art"/>
+    <file name="magic_background606x222.jpg" crc="464718110" ref="corporate-practical-magic"/>
+    <file name="bus-01.jpg" crc="416111692" ref="corporate-practical-magic"/>
+    <file name="magic_eps.jpg" crc="224810238" ref="corporate-practical-magic"/>
+    <file name="magic_banner.png" crc="4026522886" ref="corporate-practical-magic"/>
+    <file name="kent_logo.jpg" crc="145495307" ref="corporate-kent-company"/>
+    <file name="kent_tear.jpg" crc="65076138" ref="corporate-kent-company"/>
+    <file name="letter5.jpg" crc="4191303951" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="laugh12.jpg" crc="3979444289" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="laugh25.jpg" crc="447637600" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="studenthandbook12.jpg" crc="4010494225" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="faculty3.jpg" crc="4234135468" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="laugh copy-u522-fr.jpg" crc="35778550" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="gourmet-u517-fr.jpg" crc="3810581337" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="gavin214x268.jpg" crc="3950440669" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="img_428-u2057.png" crc="4029378753" ref="non-profit-laughing-all-the-way-to-a-cure"/>
+    <file name="golf.jpg" crc="4265749116" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="broadway.jpg" crc="503142897" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="2014invitation12.jpg" crc="499099466" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="broadway2.jpg" crc="3880551881" ref="non-profit-congregation-sha’aray-shalom"/>
+    <file name="faculty_front-u1719.jpg" crc="3770845044" ref="portfolio"/>
+    <file name="u1494-grad.png" crc="91299096" ref="artists-my-art-history:portfolio:non-profit-laughing-all-the-way-to-a-cure:non-profit-congregation-sha’aray-shalom"/>
+    <file name="img_0315.jpg" crc="269868480" ref="cpl-maker-lab"/>
+    <file name="img_0314.jpg" crc="306618371" ref="cpl-maker-lab"/>
+    <file name="earring-tree.png" crc="272266339" ref="cpl-maker-lab"/>
+    <file name="img_3045.jpg" crc="214974352" ref="cpl-maker-lab"/>
+    <file name="img_4278.jpg" crc="3780299601" ref="cpl-maker-lab"/>
+    <file name="img_3056.jpg" crc="3897170321" ref="cpl-maker-lab"/>
+    <file name="broadway2014.jpg" crc="460668726" ref="broadway-and-bordeaux"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="partial-client-list.css" crc="318221349" ref="tablet>partial-client-list"/>
+      <file name="index.css" crc="318221349" ref="tablet>index"/>
+      <file name="resum_.css" crc="318221349" ref="tablet>resumé"/>
+      <file name="web.css" crc="318221349" ref="tablet>web"/>
+      <file name="temp.css" crc="318221349" ref="tablet>temp"/>
+      <file name="art.css" crc="318221349" ref="tablet>art"/>
+      <file name="print.css" crc="318221349" ref="tablet>print"/>
+    </folder>
+    <file name="web.html" crc="445310649" mt="1395063887749" redirect="false"/>
+    <file name="print.html" crc="364000404" mt="1395063894161" redirect="false"/>
+    <file name="art.html" crc="178745351" mt="1395063901785" redirect="false"/>
+    <file name="temp.html" crc="4085543783" mt="1395083516193" redirect="false"/>
+    <file name="resumé.html" crc="4280125154" mt="1382113554850" redirect="false"/>
+    <file name="partial-client-list.html" crc="3770753762" mt="1382113554890" redirect="false"/>
+    <file name="index.html" crc="3818636245" mt="1382113573795" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4264408292" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="37439780" mt="1382113573609" redirect="false"/>
+  </folder>
+  <file name="artists-my-art-history.html" crc="171352024" mt="1403109974454" redirect="true"/>
+  <file name="corporate-calumet-rubber-crop.html" crc="4014681917" mt="1403109958835" redirect="true"/>
+  <file name="non-profit-senior-artists-network.html" crc="177716010" mt="1403109958837" redirect="true"/>
+  <file name="archives.html" crc="123233755" mt="1403109245955" redirect="true"/>
+  <file name="artists-ann-kleboe-art.html" crc="4023167432" mt="1403109967165" redirect="true"/>
+  <file name="non-profit-laughing-all-the-way-to-a-cure.html" crc="532267433" mt="1403110588526" redirect="true"/>
+  <file name="non-profit-congregation-sha’aray-shalom.html" crc="44803881" mt="1403180074796" redirect="true"/>
+  <file name="websites.html" crc="4079872429" mt="1403109958860" redirect="true"/>
+  <file name="untitled-19.html" crc="224945456" mt="1403109245958" redirect="true"/>
+  <file name="portfolio.html" crc="219075959" mt="1403109958895" redirect="true"/>
+  <file name="index.html" crc="533105299" mt="1403109245943" redirect="true"/>
+  <file name="artists-r_m_proce-studios.html" crc="332619605" mt="1403109958873" redirect="true"/>
+  <file name="corporate-practical-magic.html" crc="3868980275" mt="1403109958843" redirect="true"/>
+  <file name="corporate-kent-company.html" crc="3934033491" mt="1403109958845" redirect="true"/>
+  <file name="cpl-maker-lab.html" crc="369235468" mt="1403110452635" redirect="true"/>
+  <file name="broadway-and-bordeaux.html" crc="4193462725" mt="1403180535011" redirect="true"/>
+</manifest>
